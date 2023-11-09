@@ -1,0 +1,15 @@
+{
+    "author": "Tobias Herrmann",
+    "documentation": "",
+    "keyboard": "crkbd/rev1",
+    "keymap": "mightea",
+    "layers": [
+        [ "BASE" ],
+        [ "LOWER" ],
+        [ "RAISE" ],
+        [ "ADJUST" ]
+    ],
+    "layout": "LAYOUT_split_3x5_3",
+    "notes": "",
+    "version": 1
+}
