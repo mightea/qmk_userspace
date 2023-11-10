@@ -3,13 +3,17 @@
     "documentation": "",
     "keyboard": "crkbd/rev1",
     "keymap": "mightea",
-    "layers": [
-        [ "BASE" ],
-        [ "LOWER" ],
-        [ "RAISE" ],
-        [ "ADJUST" ]
-    ],
     "layout": "LAYOUT_split_3x5_3",
+    "layers": [
+        [ "_DEF" ],
+        [ "_SYM" ],
+        [ "_NAV" ],
+        [ "_NUM" ],
+        [ "_FUN" ],
+        [ "_IDE" ],
+        [ "_MOU" ],
+        [ "_MED" ]
+    ],
     "notes": "",
     "version": 1
 }
