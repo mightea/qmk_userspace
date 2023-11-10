@@ -25,13 +25,6 @@
 #undef MOUSEKEY_WHEEL_INTERVAL
 #define MOUSEKEY_WHEEL_INTERVAL 110
 
-#ifdef COMBO_ENABLE
-    #define COMBO_VARIABLE_LEN
-    #define COMBO_ONLY_FROM_LAYER 0  // DEF layer
-    #undef COMBO_TERM
-    #define COMBO_TERM 50
-#endif
-
 // save space
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE

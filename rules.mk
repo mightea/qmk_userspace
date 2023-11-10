@@ -22,7 +22,6 @@ OLED_ENABLE = yes
 
 CAPS_WORD_ENABLE = yes
 KEY_OVERRIDE_ENABLE = no
-COMBO_ENABLE = yes
 REPEAT_KEY_ENABLE = yes
 
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
