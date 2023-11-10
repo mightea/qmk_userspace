@@ -1,5 +1,3 @@
-#pragma once
-
 // layer indices
 #define DEF 0
 #define SYM 1
@@ -14,17 +12,17 @@
 #define LA_SYM MO(SYM)
 #define LA_NAV MO(NAV)
 
+#ifdef LEGACY_CAPS_WORD_ENABLE
+  #define CAP_WRD CAPS_WORD
+#else
+  #define CAP_WRD CW_TOGG
+#endif
 
-#define LAYOUT_wrapper_split_3x5_3(...) LAYOUT_split_3x5_3(__VA_ARGS__)
-
-// Thumb keys
-#define TH_L3 LT(MOU,KC_ESC)
-#define TH_L1 LT(NAV,KC_BSPC)
-#define TH_L2 LT(NUM,KC_TAB)
-
-#define TH_R2 RSFT_T(KC_ENT)
-#define TH_R1 LT(SYM,KC_SPC)
-#define TH_R3 OSL(IDE)
+#ifdef REPEAT_KEY_ENABLE
+  #define REPEAT QK_REP
+#else
+  #define REPEAT XXXXXXX
+#endif
 
 // home row mods
 #ifdef HRM_DISABLE
@@ -113,6 +111,18 @@
     #define DBG_RES  A(G(KC_R))
     #define DBG_EVL  A(KC_F8)
 #endif
+
+
+#define LAYOUT_corne_w(...) LAYOUT_split_3x5_3(__VA_ARGS__)
+
+// Thumb keys
+#define TH_L3 LT(MOU,KC_ESC)
+#define TH_L1 LT(NAV,KC_BSPC)
+#define TH_L2 LT(NUM,KC_TAB)
+
+#define TH_R2 RSFT_T(KC_ENT)
+#define TH_R1 LT(SYM,KC_SPC)
+#define TH_R3 OSL(IDE)
 
 #define _DEF \
     KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,        KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, \
