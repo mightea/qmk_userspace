@@ -2,6 +2,14 @@ name: Build QMK firmware
 on: [push, workflow_dispatch]
 
 jobs:
+  render:
+    uses: jbarr21/keymap-display/.github/workflows/render-keymap.yml@main
+    with:
+      keymap_type: qmk
+      output_type: kd
+      keymap_path: wrappers.h
+      keymap_json_path: crkbd.json
+
   build:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
