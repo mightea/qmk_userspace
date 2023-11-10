@@ -1,9 +1,9 @@
 {
     "author": "Tobias Herrmann",
-    "documentation": "",
+    "documentation": "Wrapper based keymap",
     "keyboard": "crkbd/rev1",
     "keymap": "mightea",
-    "layout": "LAYOUT_corne_w",
+    "layout": "LAYOUT_split_3x5_3",
     "layers": [
         [ "_DEF" ],
         [ "_SYM" ],

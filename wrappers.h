@@ -112,9 +112,6 @@
     #define DBG_EVL  A(KC_F8)
 #endif
 
-
-#define LAYOUT_corne_w(...) LAYOUT_split_3x5_3(__VA_ARGS__)
-
 // Thumb keys
 #define TH_L3 LT(MOU,KC_ESC)
 #define TH_L1 LT(NAV,KC_BSPC)
