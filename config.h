@@ -1,7 +1,7 @@
 #pragma once
 
 /* Select hand configuration */
-#define MASTER_LEFT
+#define SPLIT_USB_DETECT
 
 #define ACHORDION_ENABLE
 #define CUSTOM_SHIFT_KEYS_ENABLE
