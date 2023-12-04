@@ -1,4 +1,5 @@
 # Personal QMK userspace
+[![Build QMK firmware](https://github.com/mightea/qmk_userspace/actions/workflows/build-qmk.yml/badge.svg)](https://github.com/mightea/qmk_userspace/actions/workflows/build-qmk.yml)
 
 This is a personal userspace repo for [QMK](https://github.com/qmk/qmk_firmware) keyboard firmware. This organization allows keeping all user keymaps self-contained in one folder rather than split across userspace and keyboard folders. Please see the README of the linked repo for more details.
 
@@ -7,6 +8,7 @@ To build firmware for keyboards, symbolic link a local copy or directly clone th
 ```sh
 qmk compile users/mightea/<keyboard>.json
 ```
+
 Build with Docker:
 ```sh
 docker run -it --rm -w="/qmk_firmware" \
@@ -14,3 +16,6 @@ docker run -it --rm -w="/qmk_firmware" \
     -v $(dirname $PWD)/qmk_userspace:/qmk_userspace \
     qmkfm/qmk_cli /bin/bash
 ```
+
+## Corne 34 Keymap
+<center><img src="drawing/crkbd.svg" width="60%"></center>
