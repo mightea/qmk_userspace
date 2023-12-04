@@ -72,7 +72,7 @@ layers:
   - {t: ESC, type: held}
   - ':'
   - ''
-  - ' HELD '
+  - ''
   - MED
   NAV:
   - ''
@@ -106,7 +106,7 @@ layers:
   - <
   - '>'
   - ''
-  - ' HELD '
+  - ''
   - FUN
   - ENT
   - {type: held}
@@ -144,7 +144,7 @@ layers:
   - '*'
   - ''
   - SYM
-  - {t: ' HELD ', type: held}
+  - {type: held}
   - ENT
   - '0'
   - ''
@@ -180,8 +180,8 @@ layers:
   - F3
   - F13
   - {t: QK BOOT, type: held}
-  - ' HELD '
-  - ' HELD '
+  - ''
+  - ''
   - ''
   - ''
   - QK BOOT
@@ -196,7 +196,7 @@ layers:
   - S
   - W
   - D
-  - OSM CTL
+  - ''
   - CLS FUN
   - FND USE
   - RENAME
@@ -221,7 +221,7 @@ layers:
   - DM PLY1
   - ''
   - MED
-  - {t: ' HELD ', type: held}
+  - {type: held}
   MED:
   - RGB VAI
   - RGB SAI
@@ -257,5 +257,5 @@ layers:
   - {t: MPLY, type: held}
   - MUTE
   - ''
-  - ' HELD '
-  - {t: ' HELD ', type: held}
+  - ''
+  - {type: held}
