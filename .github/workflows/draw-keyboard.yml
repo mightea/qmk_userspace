@@ -29,6 +29,6 @@ jobs:
         name: ${{ matrix.file }}_${{ github.actor }}
         retention-days: 5
         path: |
-          *.svg
+          drawing/*.svg
       continue-on-error: true
   

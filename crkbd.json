@@ -47,7 +47,7 @@
         "RGB_VAI",    "RGB_SAI",    "RGB_HUI",    "RGB_MOD",   "RGB_TOG",              "XXXXXXX",   "XXXXXXX",    "XXXXXXX",    "XXXXXXX",    "QK_BOOT", 
         "KC_MPRV",    "KC_VOLD",    "KC_VOLU",    "KC_MNXT",   "EP_TOG",               "XXXXXXX",   "XXXXXXX",    "XXXXXXX",    "XXXXXXX",    "XXXXXXX", 
         "BT_CLR",     "BT_SEL2",    "BT_SEL1",    "BT_SEL0",   "OUT_TOG",              "XXXXXXX",   "XXXXXXX",    "XXXXXXX",    "XXXXXXX",    "XXXXXXX",
-                          "XXXXXXX", "KC_MPLY", "KC_MUTE",                        "XXXXXXX", "_HELD_",  "_HELD_"
+                                    "XXXXXXX",    "KC_MPLY",   "KC_MUTE",              "XXXXXXX",   "_HELD_",     "_HELD_"
       ]
     ],
     "author": "Tobias Herrmann"
