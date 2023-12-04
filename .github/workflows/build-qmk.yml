@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
     strategy:
-      fail-fast: false
       matrix:
         file:
         - crkbd.json
