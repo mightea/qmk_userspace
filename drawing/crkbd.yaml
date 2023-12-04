@@ -1,0 +1,261 @@
+layout: {qmk_keyboard: crkbd/rev1, qmk_layout: LAYOUT_split_3x5_3}
+layers:
+  BASE:
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: LGUI}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTL}
+  - {t: T, h: LSFT}
+  - {t: D, h: HYPR}
+  - {t: H, h: HYPR}
+  - {t: N, h: RSFT}
+  - {t: E, h: RCTL}
+  - {t: I, h: RALT}
+  - {t: O, h: RGUI}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - K
+  - M
+  - ','
+  - .
+  - /
+  - {t: ESC, h: FUN}
+  - {t: TAB, h: SYM}
+  - {t: SPC, h: NUM}
+  - {t: ENT, h: RSFT}
+  - {t: BSPC, h: NAV}
+  - {t: IDE, h: sticky}
+  SYM:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '"'
+  - ''''
+  - +
+  - _
+  - '='
+  - '-'
+  - '`'
+  - '|'
+  - Ä
+  - Ö
+  - Ü
+  - OSM CTL
+  - <
+  - '['
+  - '{'
+  - (
+  - '~'
+  - \
+  - )
+  - '}'
+  - ']'
+  - '>'
+  - ''
+  - {t: ESC, type: held}
+  - ':'
+  - ''
+  - ' HELD '
+  - MED
+  NAV:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '{'
+  - '}'
+  - (
+  - )
+  - OSM CTL
+  - OSM ALT
+  - OSM SFT
+  - OSM GUI
+  - ''
+  - LEFT
+  - DOWN
+  - UP
+  - RGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '['
+  - ']'
+  - <
+  - '>'
+  - ''
+  - ' HELD '
+  - FUN
+  - ENT
+  - {type: held}
+  - ''
+  NUM:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - OSM CTL
+  - OSM ALT
+  - OSM SFT
+  - OSM GUI
+  - ''
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '*'
+  - ''
+  - SYM
+  - {t: ' HELD ', type: held}
+  - ENT
+  - '0'
+  - ''
+  FUN:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - F15
+  - OSM CTL
+  - OSM ALT
+  - OSM SFT
+  - OSM GUI
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - F14
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - F13
+  - {t: QK BOOT, type: held}
+  - ' HELD '
+  - ' HELD '
+  - ''
+  - ''
+  - QK BOOT
+  IDE:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - A
+  - S
+  - W
+  - D
+  - OSM CTL
+  - CLS FUN
+  - FND USE
+  - RENAME
+  - BRK PT
+  - ''
+  - H
+  - J
+  - K
+  - L
+  - DBG OVR
+  - DBG IN
+  - DBG OUT
+  - DBG RES
+  - DBG EVL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - DM REC1
+  - DM RSTP
+  - DM PLY1
+  - ''
+  - MED
+  - {t: ' HELD ', type: held}
+  MED:
+  - RGB VAI
+  - RGB SAI
+  - RGB HUI
+  - RGB MOD
+  - RGB TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - QK BOOT
+  - MPRV
+  - VOLD
+  - VOLU
+  - MNXT
+  - EP TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - BT SEL2
+  - BT SEL1
+  - BT SEL0
+  - OUT TOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: MPLY, type: held}
+  - MUTE
+  - ''
+  - ' HELD '
+  - {t: ' HELD ', type: held}
