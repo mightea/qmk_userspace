@@ -10,6 +10,11 @@ on:
 jobs:
   draw:
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
     strategy:
       fail-fast: false
 
@@ -19,16 +24,13 @@ jobs:
 
     - name: Checkout Repo
       uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
 
     - name: Draw Keymep
       run: make draw-keymaps
 
-    - name: Archive Images
-      uses: actions/upload-artifact@v3
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        name: ${{ matrix.file }}_${{ github.actor }}
-        retention-days: 5
-        path: |
-          drawing/*.svg
-      continue-on-error: true
+        commit_message: "Adds generated keyboard layout files"
   
