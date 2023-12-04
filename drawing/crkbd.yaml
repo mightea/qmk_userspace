@@ -85,10 +85,10 @@ layers:
   - '}'
   - (
   - )
-  - OSM CTL
-  - OSM ALT
-  - OSM SFT
-  - OSM GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - LEFT
   - DOWN
@@ -122,10 +122,10 @@ layers:
   - '8'
   - '9'
   - '-'
-  - OSM CTL
-  - OSM ALT
-  - OSM SFT
-  - OSM GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - .
   - '4'
@@ -159,10 +159,10 @@ layers:
   - F8
   - F9
   - F15
-  - OSM CTL
-  - OSM ALT
-  - OSM SFT
-  - OSM GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - F11
   - F4
