@@ -44,3 +44,12 @@
 #define DBG_OUT  S(KC_F8)
 #define DBG_RES  A(G(KC_R))
 #define DBG_EVL  A(KC_F8)
+
+// Bluetooth placeholders
+#define BT_SEL0  XXXXXXX
+#define BT_SEL1  XXXXXXX
+#define BT_SEL2  XXXXXXX
+#define BT_SEL3  XXXXXXX
+#define BT_CLR   XXXXXXX
+#define OUT_TOG  XXXXXXX
+#define EP_TOG   XXXXXXX
