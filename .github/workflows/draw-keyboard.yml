@@ -14,8 +14,7 @@ jobs:
 
     steps:
     - name: Install keymap-drawer (pypi)
-        if: inputs.install_branch == ''
-        run: python3 -m pip install keymap-drawer
+      run: python3 -m pip install keymap-drawer
 
     - name: Checkout Repo
       uses: actions/checkout@v4
