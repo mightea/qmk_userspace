@@ -33,3 +33,14 @@
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 #define NO_MUSIC_MODE
+
+// Key definitions
+#define CLS_FUN  G(KC_F12)
+#define FND_USE  A(KC_F7)
+#define RENAME   S(KC_F6)
+#define BRK_PT   G(KC_F8)
+#define DBG_OVR  KC_F8
+#define DBG_IN   KC_F7
+#define DBG_OUT  S(KC_F8)
+#define DBG_RES  A(G(KC_R))
+#define DBG_EVL  A(KC_F8)
