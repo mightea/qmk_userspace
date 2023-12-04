@@ -24,6 +24,11 @@
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
 
+#define SPLIT_MODS_ENABLE
+#define SPLIT_LED_STATE_ENABLE
+#define SPLIT_LAYER_STATE_ENABLE
+#define OLED_FONT_H "oled/oledfont.c"
+
 // save space
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
