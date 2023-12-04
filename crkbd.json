@@ -41,7 +41,7 @@
         "XXXXXXX",    "XXXXXXX",    "XXXXXXX",    "XXXXXXX",   "XXXXXXX",               "XXXXXXX",    "KC_A",     "KC_S",      "KC_W",       "KC_D",    
         "OSM_CTL",    "CLS_FUN",    "FND_USE",    "RENAME",    "BRK_PT",                "XXXXXXX",    "KC_H",     "KC_J",      "KC_K",       "KC_L",    
         "DBG_OVR",    "DBG_IN",     "DBG_OUT",    "DBG_RES",   "DBG_EVL",               "XXXXXXX",    "XXXXXXX",  "XXXXXXX",   "XXXXXXX",    "XXXXXXX", 
-                          "DM_REC1", "DM_RSTP", "DM_PLY1",                          "XXXXXXX", "MO(6)", "_HELD_"
+                                    "DM_REC1",    "DM_RSTP",   "DM_PLY1",               "XXXXXXX",    "MO(6)",    "_HELD_"
       ],
       [
         "RGB_VAI",    "RGB_SAI",    "RGB_HUI",    "RGB_MOD",   "RGB_TOG",              "XXXXXXX",   "XXXXXXX",    "XXXXXXX",    "XXXXXXX",    "QK_BOOT", 
