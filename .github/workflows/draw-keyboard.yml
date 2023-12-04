@@ -1,0 +1,34 @@
+name: Draw Keymaps
+on:
+  workflow_dispatch:  # can be triggered manually
+  push:               # automatically run on changes to following paths
+    paths:
+      - "drawing/*.yaml"
+      - "crkbd.json"
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+
+    steps:
+    - name: Install keymap-drawer (pypi)
+        if: inputs.install_branch == ''
+        run: python3 -m pip install keymap-drawer
+
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+
+    - name: Draw Keymep
+      run: make draw-keymaps"
+
+    - name: Archive Images
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ matrix.file }}_${{ github.actor }}
+        retention-days: 5
+        path: |
+          *.svg
+      continue-on-error: true
+  

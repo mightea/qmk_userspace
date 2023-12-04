@@ -14,9 +14,3 @@ docker run -it --rm -w="/qmk_firmware" \
     -v $(dirname $PWD)/qmk_userspace:/qmk_userspace \
     qmkfm/qmk_cli /bin/bash
 ```
-
-Draw the keymap
-```sh
-keymap -c drawing/draw_config.yaml parse -q crkbd.json --layer-names BASE SYM NAV NUM FUN IDE MED > drawing/crkbd.yaml && \
-keymap -c drawing/draw_config.yaml draw drawing/crkbd.yaml > drawing/crkbd.svg
-```
