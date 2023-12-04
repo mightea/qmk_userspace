@@ -15,7 +15,7 @@
       ],
       [
         "KC_EXLM",    "KC_AT",      "KC_HASH",    "KC_DLR",     "KC_PERC",               "KC_CIRC",   "KC_AMPR", "KC_ASTR",  "KC_DQUO",  "KC_QUOT",
-        "KC_PLUS",    "KC_UNDS",    "KC_EQL",     "KC_MINS",    "KC_GRV",                "KC_PIPE",    "RALT(KC_Q)",    "RALT(KC_P)",    "RALT(KC_Y)",    "OSM_CTL",
+        "KC_PLUS",    "KC_UNDS",    "KC_EQL",     "KC_MINS",    "KC_GRV",                "KC_PIPE",    "RALT(KC_Q)",    "RALT(KC_P)",    "RALT(KC_Y)",    "XXXXXXX",
         "KC_LT",      "KC_LBRC",    "KC_LCBR",    "KC_LPRN",    "KC_TILD",               "KC_BSLS",    "KC_RPRN",    "KC_RCBR",    "KC_RBRC",    "KC_GT",
                                     "XXXXXXX",      "KC_ESC",   "KC_COLN",               "XXXXXXX",    "_HELD_",    "MO(6)"
       ],
