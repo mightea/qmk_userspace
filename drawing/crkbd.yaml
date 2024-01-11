@@ -57,7 +57,7 @@ layers:
   - Ä
   - Ö
   - Ü
-  - OSM CTL
+  - ''
   - <
   - '['
   - '{'
@@ -72,7 +72,7 @@ layers:
   - {t: ESC, type: held}
   - ':'
   - ''
-  - ' HELD '
+  - ''
   - MED
   NAV:
   - ''
@@ -85,10 +85,10 @@ layers:
   - '}'
   - (
   - )
-  - OSM CTL
-  - OSM ALT
-  - OSM SFT
-  - OSM GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - LEFT
   - DOWN
@@ -106,7 +106,7 @@ layers:
   - <
   - '>'
   - ''
-  - ' HELD '
+  - ''
   - FUN
   - ENT
   - {type: held}
@@ -122,10 +122,10 @@ layers:
   - '8'
   - '9'
   - '-'
-  - OSM CTL
-  - OSM ALT
-  - OSM SFT
-  - OSM GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - .
   - '4'
@@ -144,7 +144,7 @@ layers:
   - '*'
   - ''
   - SYM
-  - {t: ' HELD ', type: held}
+  - {type: held}
   - ENT
   - '0'
   - ''
@@ -159,10 +159,10 @@ layers:
   - F8
   - F9
   - F15
-  - OSM CTL
-  - OSM ALT
-  - OSM SFT
-  - OSM GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - F11
   - F4
@@ -179,12 +179,12 @@ layers:
   - F2
   - F3
   - F13
-  - {t: QK BOOT, type: held}
-  - ' HELD '
-  - ' HELD '
+  - {type: held}
   - ''
   - ''
-  - QK BOOT
+  - ''
+  - ''
+  - ''
   IDE:
   - ''
   - ''
@@ -192,20 +192,20 @@ layers:
   - ''
   - ''
   - ''
-  - A
-  - S
-  - W
-  - D
-  - OSM CTL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - CLS FUN
   - FND USE
   - RENAME
   - BRK PT
   - ''
-  - H
-  - J
-  - K
-  - L
+  - ''
+  - ''
+  - ''
+  - ''
   - DBG OVR
   - DBG IN
   - DBG OUT
@@ -221,7 +221,7 @@ layers:
   - DM PLY1
   - ''
   - MED
-  - {t: ' HELD ', type: held}
+  - {type: held}
   MED:
   - RGB VAI
   - RGB SAI
@@ -257,5 +257,5 @@ layers:
   - {t: MPLY, type: held}
   - MUTE
   - ''
-  - ' HELD '
-  - {t: ' HELD ', type: held}
+  - ''
+  - {type: held}
