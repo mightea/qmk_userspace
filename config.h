@@ -9,15 +9,14 @@
 
 // Configure the global tapping term (default: 200ms)
 #undef TAPPING_TERM
-#define TAPPING_TERM 150
-#define TAPPING_TERM_PER_KEY
+#define TAPPING_TERM 300
 
 #define QUICK_TAP_TERM_PER_KEY
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 #define PERMISSIVE_HOLD_PER_KEY
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
-#define QUICK_TAP_TERM 0
+//#define QUICK_TAP_TERM 0
 
 #define ONESHOT_TIMEOUT 5000
 #define SPLIT_USB_DETECT
