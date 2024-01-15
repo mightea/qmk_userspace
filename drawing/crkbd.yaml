@@ -179,12 +179,12 @@ layers:
   - F2
   - F3
   - F13
-  - {t: QK BOOT, type: held}
+  - {type: held}
   - ''
   - ''
   - ''
   - ''
-  - QK BOOT
+  - ''
   IDE:
   - ''
   - ''
@@ -192,20 +192,20 @@ layers:
   - ''
   - ''
   - ''
-  - A
-  - S
-  - W
-  - D
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - CLS FUN
   - FND USE
   - RENAME
   - BRK PT
   - ''
-  - H
-  - J
-  - K
-  - L
+  - ''
+  - ''
+  - ''
+  - ''
   - DBG OVR
   - DBG IN
   - DBG OUT
